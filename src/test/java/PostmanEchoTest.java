@@ -58,7 +58,7 @@ public class PostmanEchoTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("currency:RUB"));
+                .body("data", equalTo("currency:RUr"));
     }
 
 }
